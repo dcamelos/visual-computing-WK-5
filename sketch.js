@@ -92,8 +92,8 @@ function draw() {
   k = kSlider.value();
   dALabel.html('dA: ' + dA);
   dBLabel.html('dB: ' + dB);
-  feedLabel.html('feed: ' + feed);
-  kLabel.html('k: ' + k);
+  feedLabel.html('Feed: ' + feed);
+  kLabel.html('Kill: ' + k);
   ambientLight(51, 51, 51);
   directionalLight(128, 128, 128, 0, 1, 0);
   pointLight(255, 255, 255,
